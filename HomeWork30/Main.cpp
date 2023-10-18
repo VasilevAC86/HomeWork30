@@ -47,7 +47,7 @@ int main() {
 	std::cin.ignore();
 	std::getline(std::cin, my_Text);
 	if (overwrite(my_path, my_Text)) {
-		std::cout << "\n\033[92mFile overwritten successfully.\033[0m";
+		std::cout << "\n\n\033[92mFile overwritten successfully.\033[0m";
 		print_file(my_path); // Если пользователь захочет, то он выведет содержимое файла
 	}
 	else
